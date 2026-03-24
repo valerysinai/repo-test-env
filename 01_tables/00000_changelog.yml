@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 00000_tb_usuario
+      author: valerysinai
+      changes:
+        - sqlFile:
+            path: 01_tables/00001_tb_usuario.sql
