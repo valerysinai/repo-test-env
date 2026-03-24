@@ -1,13 +1,13 @@
 version: '3.7'
 
 services:
-  payment-agreement-silin-db:
+  usuario-db:
     image: postgres:13
-    container_name: xxxx
+    container_name: usuario_db
     restart: unless-stopped
     environment:
-      - POSTGRES_USER=xxx
-      - POSTGRES_PASSWORD=xxx
-      - POSTGRES_DB=xxx
+      - POSTGRES_USER=valery
+      - POSTGRES_PASSWORD=valery123
+      - POSTGRES_DB=usuario_db
     ports:
       - "5432:5432"
