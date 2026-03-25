@@ -1,1 +1,9 @@
-databaseChangeLog:
+-- | Author      | valerysinai
+-- | Description | Insertar datos iniciales tabla usuario
+-- | Create date | 2026-03-24
+
+INSERT INTO usuario (id, nombre, correo, created_by, created_at, updated_by, updated_at)
+VALUES 
+('1', 'Valery Sinai', 'valery@correo.com', '1', NOW(), '1', NOW()),
+('2', 'Juan Pérez', 'juan@correo.com', '1', NOW(), '1', NOW()),
+('3', 'María García', 'maria@correo.com', '1', NOW(), '1', NOW());
